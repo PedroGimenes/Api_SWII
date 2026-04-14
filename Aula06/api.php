@@ -25,7 +25,12 @@
                 "nome" => $dados ["nome"],
                 "email" => $dados ["email"]
             ];
-            
+
+            //Adiciona o novo usuário ao array existente
+            array_push($usuarios, $novoUsuario);
+            echo json_encode('Usuário inserido com sucesso!');
+            print_r($usuarios);
+
             break;
 
         case 'PUT':
