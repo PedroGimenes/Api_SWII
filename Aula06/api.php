@@ -14,6 +14,15 @@
         case 'POST':
             echo "AQUI AÇÕES DO MÉTODO POST";
             break;
+
+        case 'PUT':
+            echo "AQUI AÇÕES DO MÉTODO PUT";
+            break;
+        
+        case 'DELETE':
+            echo "AQUI AÇÕES DO MÉTODO DELETE";
+            break;    
+        
     
         default:
             echo "MÉTODO NÃO ENCONTRADO!";
