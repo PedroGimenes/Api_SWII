@@ -1,6 +1,6 @@
 <?php
     //CABEÇALHO
-    header("Content-Type: application/json"); // Define o tipo de resposta
+    header("Content-Type: application/json; charsert=UTF-8"); // Define o tipo de resposta
 
     $metodo = $_SERVER['REQUEST_METHOD'];
 
